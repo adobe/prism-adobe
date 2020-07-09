@@ -5,8 +5,7 @@
   "main": "themes/prism-adobe.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adobe/prism-adobe.git",
-    "directory": "components/button"
+    "url": "https://github.com/adobe/prism-adobe.git"
   },
   "bugs": {
     "url": "https://github.com/adobe/prism-adobe/issues"
