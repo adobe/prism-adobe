@@ -1,0 +1,17 @@
+{
+  "name": "@adobe/prism-adobe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "themes/prism-adobe.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe/prism-adobe.git",
+    "directory": "components/button"
+  },
+  "bugs": {
+    "url": "https://github.com/adobe/prism-adobe/issues"
+  },
+  "author": "macdonst",
+  "license": "Apache-v2",
+  "dependencies": {}
+}
