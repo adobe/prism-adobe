@@ -1,5 +1,5 @@
 {
-  "name": "@parliament/prism-adobe",
+  "name": "@adobe/prism-adobe",
   "version": "1.0.0",
   "description": "",
   "main": "themes/prism-adobe.css",
