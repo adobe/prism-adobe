@@ -20,7 +20,7 @@ npm install --save @adobe/prism-adobe
 Add the following line to your `gatsby-browser.js` file.
 
 ```js
-require("@parliament/prism-adobe/themes/prism-adobe.css");
+require("@adobe/prism-adobe/themes/prism-adobe.css");
 ```
 
 ## Contributing
