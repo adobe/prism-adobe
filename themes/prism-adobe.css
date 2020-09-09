@@ -37,7 +37,7 @@ pre[class*="language-"] {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  line-height: 1.5;
+  line-height: var(--spectrum-global-dimension-size-300);
   border-radius: 4px;
 
   -moz-tab-size: 4;
@@ -52,7 +52,7 @@ pre[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1em;
+  padding: var(--spectrum-global-dimension-size-300);
   margin: 0.5em 0;
   overflow: auto;
 }
