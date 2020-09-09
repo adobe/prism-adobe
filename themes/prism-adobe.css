@@ -53,14 +53,14 @@ pre[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
   padding: var(--spectrum-global-dimension-size-300);
-  margin: 0.5em 0;
+  margin: 0;
   overflow: auto;
 }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  /* --hljs-background: var(--spectrum-global-color-gray-75); */
-  background: var(--spectrum-global-color-gray-75);
+  /* --hljs-background: var(--spectrum-global-color-gray-100); */
+  background: var(--spectrum-global-color-gray-100);
 }
 
 /* Inline code */
