@@ -163,3 +163,41 @@ pre[class*="language-"] {
 .token.inserted {
   color: var(--spectrum-global-color-green-600);
 }
+
+.gatsby-highlight {
+  font-size: 1rem;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+.gatsby-highlight > code[class*="language-"],
+.gatsby-highlight > pre[class*="language-"] {
+  word-spacing: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  line-height: var(--spectrum-global-dimension-size-300);
+  tab-size: 4;
+  hyphens: none;
+}
+
+.line-number-style {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 1.2em;
+  user-select: none;
+  opacity: 0.3;
+  text-align: center;
+  position: relative;
+}
+
+.highlight-line {
+  background-color: var(--spectrum-global-color-static-gray-900);
+}
+
+.highlight-line .line-number-style {
+  opacity: 0.5;
+  width: calc(1.2em - 4px);
+  left: -2px;
+}
