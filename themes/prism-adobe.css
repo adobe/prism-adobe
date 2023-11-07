@@ -32,6 +32,7 @@ pre[class*="language-"] {
   background: none;
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 1em;
+  font-feature-settings: "liga" 0; /* Disable Monaco's fixed-width (squished) ligatures */
   text-align: left;
   white-space: pre;
   word-spacing: normal;
